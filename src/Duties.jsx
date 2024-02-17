@@ -1,7 +1,6 @@
-const Duties = ({duties}) => {
-  return (
-    <div>Duties</div>
-  )
-}
+const Duties = ({ duties }) => {
+  console.log(duties);
+  return <div>Duties</div>;
+};
 
-export default Duties
+export default Duties;
